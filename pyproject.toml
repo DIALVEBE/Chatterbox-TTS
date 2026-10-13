@@ -1,0 +1,10 @@
+[project]
+name = "text-to-speech-chatterbox"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chatterbox-tts>=0.1.7",
+    "setuptools<81",
+]
